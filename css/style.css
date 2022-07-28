@@ -1,0 +1,138 @@
+.body {
+  background-image: url(../Multimedia/Imagenes/fondo\ body.svg);
+  background-size: cover;
+  padding: 0%;
+  margin: 0%;
+}
+
+.portada .h1 {
+  background-image: linear-gradient(pink, rgba(255, 192, 203, 0.03));
+  text-align: center;
+  font-family: "Berkshire Swash", cursive;
+  color: black;
+}
+
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid {
+  display: flex;
+  justify-content: center;
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .navbar-brand {
+  font-family: "Bebas Neue", cursive;
+  font-size: 200%;
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .navbar-toggler:hover {
+  color: green;
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .collapse-navbar-collapse .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0%;
+  margin: 10%;
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .collapse-navbar-collapse .navbar-nav .nav-item .nav-link-active {
+  text-decoration: none;
+  padding: 0% 10%;
+  margin: 0%;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  padding: 0%;
+  font-size: 120%;
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .collapse-navbar-collapse .navbar-nav .nav-item .nav-link-active:hover {
+  color: green;
+  transition: 1.2s;
+  transform: scale(2);
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .collapse-navbar-collapse .navbar-nav .nav-item {
+  padding: 0% 10%;
+  margin: 0%;
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .collapse-navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  padding: 0%;
+  font-size: 120%;
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .collapse-navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: green;
+  transition: 1.2s;
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .collapse-navbar-collapse .navbar-nav .nav-item-dropdown {
+  padding: 0% 10%;
+  margin: 0%;
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .collapse-navbar-collapse .navbar-nav .nav-item-dropdown .nav-link-dropdown-toggle {
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  padding: 0%;
+  font-size: 120%;
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .collapse-navbar-collapse .navbar-nav .nav-item-dropdown .nav-link-dropdown-toggle:hover {
+  color: green;
+  transition: 1.2s;
+}
+.navbar .navbar-navbar-expand-lg-bg-light .container-fluid .collapse-navbar-collapse .navbar-nav .nav-item-dropdown {
+  padding: 0% 10%;
+  margin: 0%;
+}
+.carousel {
+  margin: 2%;
+}
+.carousel .carousel-slide .carousel-inner {
+  position: static;
+}
+.carousel .carousel-slide .carousel-inner .carousel-item active .d-block-w-100 {
+  width: 100%;
+  height: 30%;
+}
+.carousel .carousel-slide .carousel-inner .carousel-item .d-block-w-100 {
+  width: 100%;
+  height: 30%;
+}
+.carousel .carousel-slide .carousel-inner .carousel-item .d-block-w-100 {
+  width: 100%;
+  height: 30%;
+}
+.h2 {
+  margin: 5%;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+}
+
+.populares {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+.populares .popu {
+  display: flex;
+  justify-content: space-around;
+}
+.populares .popu .variedad {
+  padding: 1%;
+  border-radius: 2%;
+  border: 6px solid green;
+  position: absolute;
+  z-index: -1;
+}
+.populares .popu .variedad:hover {
+  opacity: 0.5;
+}
+.populares .msj {
+  display: none;
+  text-decoration: none;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+}
+.populares .popu:hover .msj {
+  display: block;
+  text-align: center;
+}
+.populares .popu:hover {
+  transform: scale(1.2);
+  transition: 1.2s;
+  border: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
